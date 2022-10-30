@@ -1,9 +1,9 @@
-FROM alpine:3.15
+FROM alpine:3.16.2
 LABEL maintainer "Amin Cheloh <amincheloh@gmail.com>"
 
-ARG KUBECTL_VERSION=1.23.3
-ARG HELM_VERSION=3.8.0
-ARG HELM_PUSH_VERSION=0.10.1
+ARG KUBECTL_VERSION=1.25.3
+ARG HELM_VERSION=3.10.1
+ARG HELM_PUSH_VERSION=0.10.3
 
 RUN apk add --no-cache \
     curl \
